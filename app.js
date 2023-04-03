@@ -12,7 +12,8 @@
 // alert("java script alert \n\nwelcome to JS land......\nhappy coding!")
 
 //Q4) 
-alert("java script alert \n\nwelcome to JS land......");
-alert("java script alert \n\nhappy coding!");
+// alert("java script alert \n\nwelcome to JS land......");
+// alert("java script alert \n\nhappy coding!");
 
-
+//Q5)
+alert("java script alert \n\nhello... i can run JS through my web browser's console");
