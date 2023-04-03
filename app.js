@@ -5,4 +5,9 @@
 
 
 //Q2) 
-alert("java script alert  \nerror! please enter a valid password")
+// alert("java script alert  \nerror! please enter a valid password")
+
+
+//Q3)
+
+alert("java script alert \n\nwelcome to JS land......\nhappy coding")
