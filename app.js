@@ -9,5 +9,10 @@
 
 
 //Q3)
+// alert("java script alert \n\nwelcome to JS land......\nhappy coding!")
 
-alert("java script alert \n\nwelcome to JS land......\nhappy coding")
+//Q4) 
+alert("java script alert \n\nwelcome to JS land......");
+alert("java script alert \n\nhappy coding!");
+
+
