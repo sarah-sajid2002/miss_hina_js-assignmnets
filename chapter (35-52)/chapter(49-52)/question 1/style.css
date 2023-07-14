@@ -1,0 +1,37 @@
+form{
+    margin: 0px 10px;
+}
+h3{
+    font-size: 20px;
+    color: purple;
+    margin: 0px 20px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    color: purple;
+    border: 2px solid purple;
+    margin: 10px 20px;
+    font-size: 20px;
+}
+#city{
+    display: inline-block;
+}
+#btn{
+    margin: 30px 200px; 
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+    display: block;
+}
+#btn:hover{
+    width: 205px;
+    height: 55px;
+    cursor: pointer;
+}
+#heading{
+    display: inline-block;
+}
