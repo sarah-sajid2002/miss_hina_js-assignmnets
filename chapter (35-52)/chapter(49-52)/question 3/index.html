@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table id="table" cellspacing="20px" >
+        <tr>
+            <td><h1>S.no</h1></td>
+            <td><h1>first name</h1></td>
+            <td><h1>last name</h1></td>
+            <td><h1>age</h1></td>
+            <td><h1>class</h1></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Safwan </td>
+            <td>Ahmed</td>
+            <td>15</td>
+            <td>9th</td>
+            <td><button id="delete">delete</button></td>
+            <td><button id="edit">edit</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>haris</td>
+            <td>azlan</td>
+            <td>6</td>
+            <td>4th</td>
+            <td><button id="delete">delete</button></td>
+            <td><button id="edit">edit</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>ayesha</td>
+            <td>hassan</td>
+            <td>10</td>
+            <td>6</td>
+            <td><button id="delete">delete</button></td>
+            <td><button id="edit">edit</button></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>hania</td>
+            <td>hammad</td>
+            <td>12</td>
+            <td>7</td>
+            <td><button id="delete">delete</button></td>
+            <td><button id="edit">edit</button></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>waleed</td>
+            <td>nadeem</td>
+            <td>20</td>
+            <td>uni</td>
+            <td><button id="delete">delete</button></td>
+            <td><button id="edit">edit</button></td>
+        </tr>
+    </table>
+
+        <div id="hidden_table">
+            <tr><p id="student_info"></p></tr>
+            <tr>
+                <td ><input id="s_no" type="text" value="" placeholder="s.no"></td>
+                <td ><input id="first_name" type="text" value="" placeholder="first name"></td>
+                <td ><input id="last_name" type="text" value="" placeholder="last name"></td>
+                <td ><input id="age" type="text" value="" placeholder="age"></td>
+                <td ><input id="class" type="text" value="" placeholder="class"></td>
+            </tr>
+            <tr><button id="done">edit</button></tr>
+            <tr><button id="back">back</button></tr>
+        </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

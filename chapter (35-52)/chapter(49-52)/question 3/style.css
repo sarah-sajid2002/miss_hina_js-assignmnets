@@ -1,0 +1,29 @@
+table{
+    border: thick double black;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+#hidden_table{
+    margin-top: 40px;
+    margin-left: 50px;
+    position: absolute;
+    bottom: 350px;
+    padding: 20px;
+    background-color:rgb(184, 179, 170) ;
+    display: none;
+    width: 850px;
+}
+#hidden_table input{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+#hidden_table button{
+    margin: 10px 20px;
+    background-color: burlywood;
+    width: 100px;
+}
+#hidden_table button:hover{
+    cursor: pointer;
+}
